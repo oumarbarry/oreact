@@ -1,0 +1,15 @@
+{
+  "extends": "@antfu/eslint-config-react",
+  "rules": {
+    "no-undef": "off",
+    "no-console": "warn",
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "react/jsx-no-undef": "off",
+    "max-statements-per-line": "off"
+  }
+}
